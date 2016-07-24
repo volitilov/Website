@@ -453,31 +453,32 @@ p {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 120px;
-  left: 50%;
+  bottom: 20px;
+  left: 165px;
   z-index: 15;
-  width: 60%;
-  margin-left: -30%;
   padding-left: 0;
   list-style: none;
   text-align: center;
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
   margin: 1px;
-  text-indent: -999px;
-  border: 2px solid black;
-  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  margin-right: 4px;
+  padding-top: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
   cursor: pointer;
-  background-color: #000 \9;
+ -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+  background: #eee;
+  color: #333;
 }
 .carousel-indicators .active {
-  margin: 0;
-  width: 15px !important;
-  height: 15px !important;
-  background-color: black;
+  color: rgb(2, 168, 243);
 }
 .carousel-inner {
   position: relative;
