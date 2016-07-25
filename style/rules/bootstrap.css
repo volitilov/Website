@@ -153,6 +153,7 @@ a {
 }
 a:hover,
 a:focus {
+  cursor: pointer;
   text-decoration: underline;
 }
 a:focus {
